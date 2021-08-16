@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider Video Landing Page</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand fw-blod fs-3 text-primary"> <span><i class="bi bi-brightness-alt-high"></i></span> Explore </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto text-center ">
+            <li class="nav-item">
+              <a href="#" class="nav-link text-primary">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a href="#" class="nav-link text-primary">About</a>
+            </li>
+            <li class="nav-item text-primary">
+              <a href="#" class="nav-link text-primary">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <video
+      src="./video/pexels-yaroslav-shuraev-5417887.mp4"
+      autoplay
+      muted
+      loop
+      class="video-slide active"
+    ></video>
+
+    <video
+      src="./video/pexels-taryn-elliott-7866400.mp4"
+      autoplay
+      muted
+      loop
+      class="video-slide"
+    ></video>
+
+    <video
+      src="./video/Time Lapse Video Of Night Sky.mp4"
+      autoplay
+      muted
+      loop
+      class="video-slide"
+    ></video>
+
+    <video
+      src="./video/video.mp4"
+      autoplay
+      muted
+      loop
+      class="video-slide"
+    ></video>
+
+    <!--Content section-->
+    <div class="p-5">
+      <div class="container text-white">
+        <div class="row">
+          <div class="col-md-10">
+            <div class="content active">
+              <h1 class="fw-bold text-md-start text-center ">WONDERFUL <br /><span>VACATION</span></h1>
+            <p class="my-4 d-md-block d-none">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas ut necessitatibus, fugit delectus aut facilis aperiam nobis eligendi soluta voluptatibus impedit commodi. Natus excepturi architecto labore quae et nihil, reiciendis unde odit reprehenderit debitis possimus cum sed iusto!
+            </p>
+            </div>
+
+            <div class="content">
+              <h1 class="fw-bold text-md-start text-center ">FREE<br /><span>TO ENJOY YOURSELF</span></h1>
+            <p class="my-4 d-md-block d-none">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi rem inventore cumque ullam perferendis obcaecati deserunt voluptates nam esse magni minus, tempore doloribus est quia! Consectetur aut amet unde natus earum. Nesciunt dolore inventore architecto?
+            </p>
+            </div>
+
+            <div class="content">
+              <h1 class="fw-bold text-md-start text-center ">EXTRAORDINARY<br /><span>LANDSCAPE</span></h1>
+            <p class="my-4 d-md-block d-none">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolores maiores repellat hic, aspernatur exercitationem sequi quo veniam alias ea nemo mollitia expedita. Autem, ipsam? Veritatis, maiores officiis hic distinctio velit harum a labore explicabo?
+            </p>
+            </div>
+
+            <div class="content">
+              <h1 class="fw-bold text-md-start text-center ">FEEL<br /><span>NATURE</span></h1>
+            <p class="my-4 d-md-block d-none">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi architecto iure quas qui quo, mollitia dolorem. Dolor libero, nesciunt expedita laborum ut quasi eum incidunt tempora aspernatur labore. Deserunt incidunt veritatis est ratione totam nobis laudantium labore.
+            </p>
+            </div>
+            
+            <div class="text-md-start text-center mt-md-auto mt-5">
+              <button class="btn btn-default text-primary fw-bold bg-light mt-4 mb-5 " id="button-of-chevron">
+                <i class="bi bi-chevron-compact-right" id="translate-chevron"></i>Explore Now
+              </button>
+            </div>
+            
+          </div>
+          <div
+            class="
+              col-md-2
+              d-md-flex
+              flex-column
+              gap-2
+              justify-content-center
+              align-items-end
+              text-center
+              py-md-auto 
+              d-none
+            "
+            id="social-media"
+          >
+            <a href="#"
+              ><i class="bi bi-twitter text-info h4 my-2 mx-md-auto mx-2"></i
+            ></a>
+            <a href="#"><i class="bi bi-facebook h4 text-info my-2 mx-md-auto mx-2"></i></a>
+            <a href="#"><i class="bi bi-youtube text-info h4 my-2 mx-md-auto mx-2"></i></a>
+            <a href="#"><i class="bi bi-instagram text-info h4 my-1 mx-md-auto mx-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Slider navigation section-->
+    <div class="container">
+      <div class="slider-navigation d-flex justify-content-center align-items-center gap-4">
+        <div class="nav-btn active"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+      </div>
+    </div>
+    
+
+    <script>
+      const btns = document.querySelectorAll(".nav-btn");
+      const slides = document.querySelectorAll(".video-slide");
+      const contents = document.querySelectorAll(".content");
+
+      var sliderNav = manual => {
+        btns.forEach(btn =>{
+          btn.classList.remove("active")
+        })
+
+        slides.forEach(slide =>{
+          slide.classList.remove("active")
+        })
+
+        contents.forEach(con =>{
+          con.classList.remove("active")
+        })
+
+        btns[manual].classList.add("active") //to change blue background color of nav slider button
+        slides[manual].classList.add("active") 
+
+        contents[manual].classList.add("active");
+      }
+
+      btns.forEach((btn,i)=>{
+        btn.addEventListener("click", ()=>{
+          sliderNav(i);//to active button (change to blue)
+        })
+      })
+      
+    </script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
